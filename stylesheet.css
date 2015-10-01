@@ -1,0 +1,150 @@
+.wrapper {
+  width: 700px;
+  margin: auto;
+}
+
+@font-face {
+  font-family: AvenirNext;
+  src:url(AvenirNextLTPro-Regular.otf);
+}
+
+@font-face {
+  font-family: AvenirNext;
+  src:url(AvenirNextLTPro-Demi.otf);
+  font-weight: bold;
+}
+
+header {
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+header > span {
+  margin-left: auto;
+  padding-right: 10px;
+  font-family: AvenirNext;
+}
+
+section {
+  box-shadow: 0px 3px 5px 4px #D6D6D6;
+  width: 100%;
+  height: auto;
+  margin-top: 10px;
+  overflow: auto;
+}
+
+h1, h3, footer, li {
+  font-family: AvenirNext;
+}
+
+form > * {
+  display: block;
+  font-family: AvenirNext;
+}
+
+form span, select {
+  margin-bottom: 20px;
+}
+
+form input, select {
+  border-radius: 5px;
+  box-shadow: 1px 2px 1px 1px #D6D6D6;
+  border: 1px solid #CCCCCC;
+  padding: 3px 0px;
+  margin-top: 3px;
+  width: 80%;
+}
+
+form div {
+  position: relative;
+  margin: 25px 0;
+}
+
+form label {
+  margin-top: 20px;
+}
+
+#checkbox {
+  width: auto;
+}
+
+#submit {
+  background-color: #45CAE6;
+  border: 0px;
+  border-radius: 5px;
+  width: 90px;
+  height: 37px;
+  color: white;
+  font-family: AvenirNext;
+}
+
+.left {
+  float: left;
+  margin-top: 10px;
+  margin-left: 40px;
+}
+
+.right {
+  margin-left: 420px;
+  margin-top: 35px;
+  padding-left: 50px;
+  border-left: 1px solid #CCCCCC;
+  height: 528px;
+  text-align: center;
+}
+
+.box {
+  background-color: #F5F5F5;
+  padding: 10px 5px 5px 5px;
+  margin-right: 50px;
+}
+
+.box li {
+  text-align: left;
+  font-size: 0.8em;
+  margin: 8px 0px;
+}
+
+.box ul {
+  padding-left: 25px;
+}
+
+footer > span {
+  display: inline-block;
+  padding: 5px 15px;
+  font-size: 0.8em;
+}
+
+footer > img {
+  display: block;
+  margin: 10px auto;
+}
+
+footer {
+  margin: 15px auto;
+  text-align: center;
+}
+
+#copyright {
+  margin: auto;
+  display: block;
+}
+
+label.error {
+  color: red;
+  font-size: 0.8em;
+  position: absolute;
+  bottom: -18px;
+  display: block;
+  white-space: nowrap;
+}
+
+input.valid {
+  border: 2px solid #529864;
+}
+
+input.error {
+  border: 2px solid red;
+}

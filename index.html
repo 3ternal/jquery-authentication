@@ -1,0 +1,79 @@
+<head>
+  <link rel="stylesheet" href="stylesheet.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+  <script src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.14.0/jquery.validate.min.js"></script>
+  <script src="script.js"></script>
+</head>
+
+<body>
+  <div class="wrapper">
+    <header>
+      <img src="logo.png">
+      <span><strong>Sign up</strong> | Log in</span>
+    </header>
+    <section>
+      <div class="left">
+        <h1>Create a new account</h1>
+        <form>
+
+          <div>
+            <label for="email">Your Email</label>
+            <input id="email" type="email" name="email" required>
+          </div>
+
+          <div>
+            <label for="confirm-email">Confirm Email</label>
+            <input id="confirm-email" type="email" name="matchingemail" required matchingemail>
+          </div>
+
+          <div>
+            <label>Country</label>
+            <select>
+              <option value="usa">United States</option>
+              <option value="canada">Canada</option>
+            </select>
+          </div>
+
+          <div>
+            <label>Zip Code</label>
+            <input type="text" name="zipcode" required>
+          </div>
+
+          <div>
+            <label>Password</label>
+            <input id="password" type="password" name="password" required>
+          </div>
+
+          <div>
+            <label>Confirm Password</label>
+            <input type="password" name="confirm_password" required>
+          </div>
+
+          <div>
+            <span><input id="checkbox" type="checkbox" name="TOS" required>Yes, I agree to the Mint Terms of Use.</span>
+          </div>
+
+          <div>
+            <input id="submit" type="submit" value="SIGN UP">
+          </div>
+        </form>
+      </div>
+      <div class="right">
+        <div class="box">
+          <h3>Why you'll love it</h3>
+          <ul>
+            <li>See all your accounts in one place</li>
+            <li>Set a budget and pay down your debt</li>
+            <li>Find the best ways to grow your money</li>
+            <li>Stay <a href="#">safe and secure</a></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <span>Support Community</span> | <span>Terms of Use</span> | <span>Privacy</span> | <span>Legal and Trademark Notices</span> | <span>About Intuit</span>
+      <img src="norton.png">
+      <span id="copyright">© 2015 Intuit, Inc.  |  ph6987.89 - spa57.8</span>
+    </footer>
+  </div>
+</body>
